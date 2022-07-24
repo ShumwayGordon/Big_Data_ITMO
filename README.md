@@ -41,7 +41,6 @@ UTF-based representation is also ok. The dictionay should contain 30-50 differen
    - use a dictionary of emoticons to look for them in texts
    - broadcast the dictionary
    - implement an UDF to process texts with dictionary of emoticons;
-\n
 
 5) Find probable “fans”. For each user find the top 10 other users whose posts this user likes. 
 
