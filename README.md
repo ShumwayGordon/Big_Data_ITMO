@@ -38,9 +38,9 @@ The dataset located in HDFS contains data of ITMO community from vk.com (https:/
 UTF-based representation is also ok. The dictionay should contain 30-50 different emoticons of three mentioned above sentiments. For each emoticon (no matter what sentiment they represent) calculate: its overall count; frequency (number of posts they can be found in divided by total count of posts); average count per post (For instance, '=)' can appear multiple times in the same post, like 0-5.). Save all results to HDFS. Additionally, for each group print: top 10 most popular emoticons by their overall count; top 5 emoticons which have the greatest difference between their overall count and frequency; top 5 emoticons with average count per post.
 
 Requirement: 
-•	use a dictionary of emoticons to look for them in texts
-•	broadcast the dictionary
-•	implement an UDF to process texts with dictionary of emoticons;
+- use a dictionary of emoticons to look for them in texts
+- broadcast the dictionary
+- implement an UDF to process texts with dictionary of emoticons;
 
 5) Find probable “fans”. For each user find the top 10 other users whose posts this user likes. 
 
